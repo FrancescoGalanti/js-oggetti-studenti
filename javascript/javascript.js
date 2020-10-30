@@ -24,23 +24,26 @@
 
   // secondo esercizio //
 
-  var classe = {
-      nome :"Dario",
-      cognome :"Dunzioni",
-      eta : "",
-      nomesecondo : "Sara",
-      cognomesecondo : "Passeri",
-      etasecondo : "",
-      nometerzo : "Francesco",
-      cognometerzo  : "Galanti",
-      etaterzo : "",
-  }
+   // prima soluzione //
+  var classe = [
+       [{
+         nome: "Francesco",
+         Cognome: "Galanti",
+         eta: ""
+       }],
+       ["Galanti, Passeri, Dunzioni"]
+
+  ];
 
 
 
-  for(var key in classe){
-     console.log(key);
-     console.log(classe[key])
+  for(var i = 0; i < classe.length; i++){
+     console.log("classe " + (i + 1) );
+     console.log("nome: " + classe[i]);
+
+     for(var j = 0; j < classe[i].length; j++){
+       console.log("cognome: " + classe[i][j].nome.cognome.eta);
+     }
   }
 
 
