@@ -24,32 +24,35 @@
 
 
 
+
+
+
   var classi = [
         {
-            nome: 'Francesco',
-            cognome: 'Galanti',
-            eta: ''
+            nome: "Francesco",
+            cognome: "Galanti",
+            eta: ""
         },
 
         {
-            nome: 'Paolo',
-            cognome: 'Dunzioni',
-            eta: ''
+            nome: "Paolo",
+            cognome: "Dunzioni",
+            eta: ""
         },
         {
-            nome: 'Sara',
-            cognome: 'Passeri',
-            eta: ''
+            nome: "Sara",
+            cognome: "Passeri",
+            eta: ""
         },
     ];
 
     for( var i = 0; i < classi.length; i++ ){
-        console.log('nome ',classi[i]["nome"]);
-        console.log('cognome ',classi[i]['cognome']);
-
+        console.log("nome ",classi[i]["nome"]);
+        console.log("cognome ",classi[i]['cognome']);
+        classi[i].eta = parseInt(prompt("dimmi la tua eta ?"));
+        console.log("eta " ,classi[i]["eta"])
     };
 
-    console.log(classi.length)
 
 
 
