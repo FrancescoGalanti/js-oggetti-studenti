@@ -1,1 +1,1 @@
-js-oggetti-studenti
+js-pwdgen-wannabe
