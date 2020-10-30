@@ -22,29 +22,38 @@
   //    console.log(studenti[key]);
   // };
 
-  // secondo esercizio //
-
-   // prima soluzione //
-  var classe = [
-       [{
-         nome: "Francesco",
-         Cognome: "Galanti",
-         eta: ""
-       }],
-       ["Galanti, Passeri, Dunzioni"]
-
-  ];
 
 
+  var classi = [
+        {
+            nome: 'Francesco',
+            cognome: 'Galanti',
+            eta: ''
+        },
 
-  for(var i = 0; i < classe.length; i++){
-     console.log("classe " + (i + 1) );
-     console.log("nome: " + classe[i]);
+        {
+            nome: 'Paolo',
+            cognome: 'Dunzioni',
+            eta: ''
+        },
+        {
+            nome: 'Sara',
+            cognome: 'Passeri',
+            eta: ''
+        },
+    ];
 
-     for(var j = 0; j < classe[i].length; j++){
-       console.log("cognome: " + classe[i][j].nome.cognome.eta);
-     }
-  }
+    for( var i = 0; i < classi.length; i++ ){
+        console.log('nome ',classi[i]["nome"]);
+        console.log('cognome ',classi[i]['cognome']);
+
+    };
+
+    console.log(classi.length)
+
+
+
+
 
 
 
