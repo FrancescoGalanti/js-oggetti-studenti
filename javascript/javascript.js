@@ -31,25 +31,24 @@
         {
             nome: "Francesco",
             cognome: "Galanti",
-            eta: ""
+            eta: "25"
         },
 
         {
             nome: "Paolo",
             cognome: "Dunzioni",
-            eta: ""
+            eta: "35"
         },
         {
             nome: "Sara",
             cognome: "Passeri",
-            eta: ""
+            eta: "28"
         },
     ];
 
     for( var i = 0; i < classi.length; i++ ){
         console.log("nome ",classi[i]["nome"]);
         console.log("cognome ",classi[i]['cognome']);
-        classi[i].eta = parseInt(prompt("dimmi la tua eta ?"));
         console.log("eta " ,classi[i]["eta"])
     };
 
