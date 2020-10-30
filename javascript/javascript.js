@@ -47,10 +47,28 @@
     ];
 
     for( var i = 0; i < classi.length; i++ ){
-        console.log("nome ",classi[i]["nome"]);
-        console.log("cognome ",classi[i]['cognome']);
-        console.log("eta " ,classi[i]["eta"])
+        console.log("nome ",classi[i].nome);
+        console.log("cognome ",classi[i].cognome);
+        console.log("eta " ,classi[i].eta)
     };
+
+    var studente = {
+
+}
+
+classi.push(studente);
+
+studente.nome = prompt("inserisci il tuo nome");
+studente.cognome = prompt("inserisci il tuo cognome");
+studente.eta = parseInt(prompt("inserisci la tua età"));
+
+console.log(classi);
+
+
+
+
+
+
 
 
 
